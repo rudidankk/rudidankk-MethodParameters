@@ -10,12 +10,12 @@ public class Application {
         System.out.println("The Lab.copy method should return the same value that was passed to it.");
         Lab parrot = new Lab();
 
-        System.out.println("Here's what Lab.copy returns when provided the value \"repeat after me\"");
+        System.out.println("repeat after me");
         String val1 = "repeat after me";
         String output1 = parrot.copy(val1);
         System.out.println(output1);
 
-        System.out.println("Here's what Lab.copy returns when provided the value \"hello\"");
+        System.out.println("hello");
         String val2 = "hello";
         String output2 = parrot.copy(val2);
         System.out.println(output2);
